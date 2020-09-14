@@ -20,7 +20,7 @@ or
 yarn add react-spoiler-tag
 ```
 
-## Usage
+## Basic Usage
 
 ```jsx
 import { Spoiler } from 'react-spoiler-tag'
@@ -39,17 +39,24 @@ const SomeComponent = () => {
 
 ### With children
 
-Passing in children is supported, **however**, version `1.0.0` has been created with lines of text in mind. Throwing in more complex entities like a card, list, image, table, etc. will yield undesired results.
+Passing in children is supported, **however**, as of now only with lines of text in mind. Wrapping complex entities like a card, list, image, table, etc. will yield undesired results.
 
 ```html
 <Spoiler>Super secret <a>link</a>!</Spoiler>
 ```
 
-## Accessibility Note
-
-It is highly recommended to make use of the props `ariaLabelShowText` and `ariaLabelHideText`, if you are serving this component in other languages, as the default text for them is in English.
-
 ## Props
+
+```html
+<Spoiler
+  text="Super secret spoiler!"
+  textColor="#000"
+  hiddenColor="#2a2a2a"
+  revealedColor="#9a9a9a"
+  ariaLabelShowText="To reveal spoiler text click here."
+  ariaLabelHideText="To hide spoiler text again click here."
+/>
+```
 
 `text` - (Optional) Text to be covered by the spolier effect - `<string>`
 
@@ -62,6 +69,10 @@ It is highly recommended to make use of the props `ariaLabelShowText` and `ariaL
 `ariaLabelShowText` - (Optional) Text for screenreaders when component is focused in hidden state. Default: _"To reveal spoiler text click here."_ - `<string>`
 
 `ariaLabelHideText` - (Optional) Text for screenreaders when component is focused in revealed state. Default: _"To hide spoiler text again click here."_ - `<string>`
+
+## Note on accessibility (a11y)
+
+It is highly recommended to make use of the props `ariaLabelShowText` and `ariaLabelHideText`, if you are serving this component in other languages, as the default text for them is in English.
 
 ## Roadmap
 
