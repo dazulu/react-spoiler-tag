@@ -1,7 +1,7 @@
 import * as React from 'react'
 import styles from './styles.module.css'
 
-interface Props {
+interface SpoilerProps {
   text?: string
   color?: string
   ariaLabelShowText?: string
@@ -9,7 +9,7 @@ interface Props {
   ariaLabelText?: string
 }
 
-export const Spoiler: React.FunctionComponent<Props> = ({
+export const Spoiler: React.FunctionComponent<SpoilerProps> = ({
   text = null,
   color = 'inherit',
   ariaLabelShowText = 'To reveal spoiler text click here.',
