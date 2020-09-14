@@ -1,9 +1,19 @@
-/* add css module styles here (optional) */
+.contents {
+  cursor: pointer;
+  font-size: inherit;
+  position: relative;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.contents > span {
+  visibility: visible;
+}
+
+.is--hidden {
+  background-color: #444;
+  border-radius: 0.3em;
+  user-select: none;
+}
+
+.is--hidden > span {
+  visibility: hidden;
 }

@@ -1,7 +1,7 @@
 {
   "name": "react-spoiler-tag",
   "version": "1.0.0",
-  "description": "Component to cover text you do not want visible until user interaction (e.g. onClick)",
+  "description": "Component to cover text you do not want visible until user interaction",
   "author": "dazulu",
   "license": "MIT",
   "repository": "dazulu/react-spoiler-tag",

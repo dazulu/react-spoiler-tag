@@ -1,29 +1,59 @@
 # react-spoiler-tag
 
-> Component to cover text you do not want visible until user interaction (e.g. onClick)
+> A lightweight, accessible 'spoiler text' component to hide text you do not want visible until the user clicks to reveal it.
 
 [![NPM](https://img.shields.io/npm/v/react-spoiler-tag.svg)](https://www.npmjs.com/package/react-spoiler-tag) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+![Example](https://assets.codepen.io/62105/spoiler-example.gif?format=auto)
+
+![Wrapping text example](https://assets.codepen.io/62105/spoiler-wrap.gif?format=auto)
 
 ## Install
 
 ```bash
-npm install --save react-spoiler-tag
+npm install react-spoiler-tag
+```
+
+or
+
+```bash
+yarn add react-spoiler-tag
 ```
 
 ## Usage
 
-```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-spoiler-tag'
+```jsx
+import Spoiler from 'react-spoiler-tag'
 import 'react-spoiler-tag/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const SomeComponent = () => {
+  return <Spoiler text='Super secret spoiler!' />
 }
 ```
+
+### With prop
+
+```html
+<Spoiler text="Super secret spoiler!" />
+```
+
+### With children
+
+Passing in children is supported, **however**, version `1.0.0` has been created with lines of text in mind. Throwing in more complex entities like a card, list, image, table, etc. will yield undesired results.
+
+```html
+<Spoiler>Super secret <a>link</a>!</Spoiler>
+```
+
+## Props
+
+> `text` - (Optional) Text to be covered by the spolier effect - `<string>`
+
+> `color` - (Optional) CSS _color_ value for the text. Default: _"inherit"_ - `<string>`
+
+## Roadmap
+
+- Support complex children content
 
 ## License
 
