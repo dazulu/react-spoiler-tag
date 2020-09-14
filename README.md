@@ -55,6 +55,10 @@ It is highly recommended to make use of the props `ariaLabelShowText` and `ariaL
 
 `color` - (Optional) CSS _color_ value for the text. Default: _"inherit"_ - `<string>`
 
+`hiddenColor` - (Optional) CSS _background-color_ value for the hidden background color. Default: _"#444"_ - `<string>`
+
+`revealedColor` - (Optional) CSS _background-color_ value for the revealed background color. Default: _"#e2e2e2"_ - `<string>`
+
 `ariaLabelShowText` - (Optional) Text for screenreaders when component is focused in hidden state. Default: _"To reveal spoiler text click here."_ - `<string>`
 
 `ariaLabelHideText` - (Optional) Text for screenreaders when component is focused in revealed state. Default: _"To hide spoiler text again click here."_ - `<string>`

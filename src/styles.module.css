@@ -1,16 +1,17 @@
 .contents {
+  border-radius: 0.3em;
   cursor: pointer;
   font-size: inherit;
   position: relative;
 }
 
 .contents > span {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
   visibility: visible;
 }
 
 .is--hidden {
-  background-color: #444;
-  border-radius: 0.3em;
   user-select: none;
 }
 
