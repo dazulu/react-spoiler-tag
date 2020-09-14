@@ -2,14 +2,17 @@
   "name": "react-spoiler-tag",
   "version": "1.0.0",
   "description": "Component to cover text you do not want visible until user interaction",
-  "author": "dazulu",
+  "author": "Adrian Payne (https://twitter.com/dazulu)",
   "license": "MIT",
-  "repository": "dazulu/react-spoiler-tag",
+  "repository": "https://github.com/dazulu/react-spoiler-tag",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/dazulu/react-spoiler-tag/issues"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
