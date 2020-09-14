@@ -23,7 +23,7 @@ yarn add react-spoiler-tag
 ## Usage
 
 ```jsx
-import Spoiler from 'react-spoiler-tag'
+import { Spoiler } from 'react-spoiler-tag'
 import 'react-spoiler-tag/dist/index.css'
 
 const SomeComponent = () => {
