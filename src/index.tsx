@@ -8,7 +8,6 @@ interface SpoilerProps {
   revealedColor?: string
   ariaLabelShowText?: string
   ariaLabelHideText?: string
-  ariaLabelText?: string
 }
 
 export const Spoiler: React.FunctionComponent<SpoilerProps> = ({
