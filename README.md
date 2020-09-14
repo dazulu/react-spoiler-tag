@@ -4,9 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-spoiler-tag.svg)](https://www.npmjs.com/package/react-spoiler-tag) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![Example](https://assets.codepen.io/62105/spoiler-example.gif?format=auto)
+![Example](https://assets.codepen.io/62105/spoiler-example_1.gif?format=auto)
 
-![Wrapping text example](https://assets.codepen.io/62105/spoiler-wrap.gif?format=auto)
+![Wrapping text example](https://assets.codepen.io/62105/spoiler-wraps_1.gif?format=auto)
 
 ## Install
 
