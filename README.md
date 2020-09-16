@@ -1,12 +1,17 @@
-# react-spoiler-tag
+<h1 align="center">Spoiler Text [React]</h1>
 
-> A lightweight, accessible 'spoiler text' component to hide text you do not want visible until the user clicks to reveal it.
+<p align="center">Lightweight, accessible React component to hide text until the user clicks.</p>
 
-[![NPM](https://img.shields.io/npm/v/react-spoiler-tag.svg)](https://www.npmjs.com/package/react-spoiler-tag) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<p align="center">
+  <img alt="example of component in action" width="350" src="https://assets.codepen.io/62105/spoiler-example_1.gif?format=auto" />
+</p>
 
-![Example](https://assets.codepen.io/62105/spoiler-example_1.gif?format=auto)
-
-![Wrapping text example](https://assets.codepen.io/62105/spoiler-wraps_1.gif?format=auto)
+<p align="center">
+  <img height="20" src="https://img.shields.io/npm/v/react-spoiler-tag.svg" />
+  <img height="20" src="https://img.shields.io/bundlephobia/min/react-spoiler-tag" />
+  <img height="20" src="https://img.shields.io/npm/dw/react-spoiler-tag" />
+  <img height="20" src="https://img.shields.io/npm/l/react-spoiler-tag" />
+</p>
 
 ## Install
 
