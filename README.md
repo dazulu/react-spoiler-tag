@@ -1,5 +1,7 @@
-<h1 align="center">Spoiler Text [React]</h1>
-
+<h1 align="center">
+<img src="https://assets.codepen.io/62105/spoiler.png?format=auto" alt="React Spoiler Text Component" width="470" />
+</h1>
+<br/>
 <p align="center">Lightweight, accessible React component to hide text until the user clicks.</p>
 
 <p align="center">

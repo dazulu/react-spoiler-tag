@@ -1,6 +1,6 @@
 {
   "name": "react-spoiler-tag",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Component to cover text you do not want visible until user interaction",
   "author": "Adrian Payne (https://twitter.com/dazulu)",
   "license": "MIT",
