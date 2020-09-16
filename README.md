@@ -1,10 +1,10 @@
 <h1 align="center">Spoiler Text [React]</h1>
 
-<p align="center"><br>
-  <img alt="example of component in action" width="399" src="https://assets.codepen.io/62105/spoiler-example_1.gif?format=auto" />
-</p>
-
 <p align="center">Lightweight, accessible React component to hide text until the user clicks.</p>
+
+<p align="center">
+  <img alt="example of component in action" width="350" src="https://assets.codepen.io/62105/spoiler-example_1.gif?format=auto" />
+</p>
 
 <p align="center">
   <img height="20" src="https://img.shields.io/npm/v/react-spoiler-tag.svg" />
