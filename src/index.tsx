@@ -21,20 +21,30 @@ export const Spoiler: React.FunctionComponent<SpoilerProps> = ({
 }) => {
   const [isHidden, setHidden] = React.useState<boolean>(true)
 
-  const toggleHidden = (e: React.MouseEvent) => {
-    const element = e.target as HTMLElement
+  const toggleHidden = (el: HTMLElement) => {
     /*
      * Want to avoid triggering a change in state if
      * user intent is clicking a nested link or button
      */
-    if (element.tagName !== 'A' && element.tagName !== 'BUTTON') {
+    if (el.tagName !== 'A' && el.tagName !== 'BUTTON') {
       setHidden(!isHidden)
+    }
+  }
+
+  const handleClick = (e: React.MouseEvent) => {
+    toggleHidden(e.target as HTMLElement)
+  }
+
+  const handleKeyPress = (e: React.KeyboardEvent) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      toggleHidden(e.target as HTMLElement)
     }
   }
 
   return (
     <span
-      onClick={toggleHidden}
+      onClick={handleClick}
+      onKeyPress={handleKeyPress}
       className={`spoiler-text ${styles.contents} ${
         isHidden ? styles['is--hidden'] : ''
       }`}
