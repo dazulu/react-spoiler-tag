@@ -13,8 +13,8 @@ interface SpoilerProps {
 export const Spoiler: React.FunctionComponent<SpoilerProps> = ({
   text = null,
   textColor = 'inherit',
-  hiddenColor = '#444',
-  revealedColor = '#e2e2e2',
+  hiddenColor = 'currentColor',
+  revealedColor = 'transparent',
   ariaLabelShowText = 'To reveal spoiler text click here.',
   ariaLabelHideText = 'To hide spoiler text again click here.',
   children
