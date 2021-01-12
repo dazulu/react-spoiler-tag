@@ -40,7 +40,7 @@ export const Spoiler: React.FunctionComponent<SpoilerProps> = ({
       }`}
       style={{ backgroundColor: isHidden ? hiddenColor : revealedColor }}
       aria-label={isHidden ? ariaLabelShowText : ariaLabelHideText}
-      aria-role='button'
+      role='button'
       tabIndex={0}
     >
       <span role='alert' style={{ color: textColor }}>
